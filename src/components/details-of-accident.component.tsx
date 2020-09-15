@@ -1,4 +1,4 @@
-import React from './body/node_modules/react'
+import React from 'react'
 import Body from './body/body.component'
 import Header from './header/header.component'
 import Footer from './footer/footer.component'
