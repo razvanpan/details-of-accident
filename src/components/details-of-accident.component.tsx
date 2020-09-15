@@ -5,7 +5,7 @@ import Footer from './footer/footer.component'
 
 const DetailsOfAccident = () => {
   return (
-    <div>
+    <div className='page-container'>
       <Header />
       <Body />
       <Footer />
