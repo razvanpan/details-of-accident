@@ -4,8 +4,18 @@ import Spacer from 'terra-spacer'
 import ActionFooter from 'terra-action-footer'
 // import './footer.component.css'
 
-const Footer = () => (
-  <div style={{ position: 'fixed', bottom: '0', width: '99%' }}>
+const DetailsOfAccidentFooter = () => (
+  <div
+    style={{
+      position: 'fixed',
+      bottom: '0',
+      width: '99%',
+      borderStyle: 'solid',
+      borderColor: '#00bfff transparent transparent transparent',
+      borderWidth: '1px',
+      overflowX: 'hidden'
+    }}
+  >
     <ActionFooter
       end={
         <React.Fragment>
@@ -19,4 +29,4 @@ const Footer = () => (
   </div>
 )
 
-export default Footer
+export default DetailsOfAccidentFooter

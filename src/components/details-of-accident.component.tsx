@@ -1,14 +1,20 @@
 import React from 'react'
-import Body from './body/body.component'
-import Header from './header/header.component'
-import Footer from './footer/footer.component'
+import DetailsOfAccidentBody from './body/body.component'
+import DetailsOfAccidentHeader from './header/header.component'
+import DetailsOfAccidentFooter from './footer/footer.component'
 
 const DetailsOfAccident = () => {
   return (
-    <div className='page-container'>
-      <Header />
-      <Body />
-      <Footer />
+    <div
+      style={{
+        padding: '10px',
+        position: 'relative',
+        overflowX: 'hidden'
+      }}
+    >
+      <DetailsOfAccidentHeader />
+      <DetailsOfAccidentBody />
+      <DetailsOfAccidentFooter />
     </div>
   )
 }
