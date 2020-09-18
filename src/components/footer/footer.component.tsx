@@ -2,7 +2,6 @@ import React from 'react'
 import Button from 'terra-button'
 import Spacer from 'terra-spacer'
 import ActionFooter from 'terra-action-footer'
-// import './footer.component.css'
 
 const DetailsOfAccidentFooter = () => (
   <div
