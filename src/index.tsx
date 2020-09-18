@@ -1,10 +1,6 @@
 import * as React from 'react'
-import styles from './styles.module.css'
+import DetailsOfAccidentComponent from './components/details-of-accident.component'
 
-interface Props {
-  text: string
-}
-
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export const DetailsOfAccident = () => {
+  return <DetailsOfAccidentComponent />
 }
